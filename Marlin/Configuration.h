@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Marlin 3D Printer Firmware
  * Copyright (C) 2016 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
@@ -390,9 +390,9 @@
 
   // ANET A8 Standard Extruder at 210 Degree Celsius and 100% Fan
   //(measured after M106 S255 with M303 E0 S210 C8)
-#define DEFAULT_Kp 16.21
-#define DEFAULT_Ki 0.98
-#define DEFAULT_Kd 66.74
+#define DEFAULT_Kp 12.42
+#define DEFAULT_Ki 0.61
+#define DEFAULT_Kd 63.07
 
 #endif // PIDTEMP
 
@@ -443,9 +443,9 @@
 
   // ANET A8
   // original Bed + 0.3mm Heat conducting into 4mm borosilicate (PID-Autotune: M303 E-1 S60 C5):
-  #define DEFAULT_bedKp 295.00
-  #define DEFAULT_bedKi 35.65
-  #define DEFAULT_bedKd 610.21
+  #define DEFAULT_bedKp 358.20
+  #define DEFAULT_bedKi 43.73
+  #define DEFAULT_bedKd 733.59
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
